@@ -1,4 +1,4 @@
-import plataPicture from "../assets/1048_PLATA_JIVEN_ELGIN11115.jpg";
+import plataPicture from "../assets/plata-picture.JPG";
 import mailLogo from "../assets/Mail.png";
 import linkedinLogo from "../assets/linkedin.png";
 
