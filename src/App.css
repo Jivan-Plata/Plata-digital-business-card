@@ -30,11 +30,6 @@ html, body {
      
 }
 
-
-p, h1 {
-    /* border: solid blue 2px; */ 
-}
-
 #coverPicture {
   width: 100%;
   height: auto;        

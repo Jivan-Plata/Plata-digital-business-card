@@ -1,12 +1,15 @@
 import twitterLogo from '../assets/twitter-icon.png'
+import facebookLogo from '../assets/facebook-icon.png'
+import instagramLogo from '../assets/instagram-icon.png'
+import githubLogo from '../assets/github-icon.png'
 
 export default function Footer() {
     return (
         <footer>
-            <a href = "www.x.com/@jivnplatss"> <img src = {twitterLogo} /></a>
-            <a href = "www.facebook.com/jivan.plata"> <img src = "./src/assets/Facebook Icon.png" /> </a>
-            <a href = "www.instagram.com/ji.vannn"><img src = "./src/assets/instagram-icon.png" /></a>
-            <a href = "www.github.com/Jivan-Plata"><img src = "./src/assets/gitHub-icon.png" /> </a>
+            <a href = "www.x.com/@jivnplatss"> <img src = {twitterLogo} alt = "Twitter Logo" /></a>
+            <a href = "www.facebook.com/jivan.plata"> <img src = {facebookLogo} alt = "Facebook Logo" /> </a>
+            <a href = "www.instagram.com/ji.vannn"><img src = {instagramLogo} alt = "Instagram Logo" /></a>
+            <a href = "www.github.com/Jivan-Plata"><img src = {githubLogo} alt = "Github Logo" /> </a>
         </footer>
     )
 }

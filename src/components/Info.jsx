@@ -1,8 +1,12 @@
+import plataPicture from "../assets/1048_PLATA_JIVEN_ELGIN11115.jpg";
+import mailLogo from "../assets/Mail.png";
+import linkedinLogo from "../assets/linkedin.png";
+
 export default function Info() {
     
     return (
         <>
-            <img src = "./src/assets/1048_PLATA_JIVEN_ELGIN11115.jpg" alt = "Jivan Plata" id = "coverPicture"/>
+            <img src = {plataPicture} alt = "Jivan Plata" id = "coverPicture"/>
 
             <div id = "infoContent">
                 <h1>Jivan Plata</h1>
@@ -13,11 +17,11 @@ export default function Info() {
             <div id = "infoButtons">
 
                 <button id = "emailButton">   
-                    <span> <img src="./src/assets/Mail.png" /> </span> Email
+                    <span> <img src= {mailLogo} alt = "Mail Logo" /> </span> Email
                 </button>
 
                 <button id = "linkedinButton">
-                    <span> <img src = "./src/assets/linkedin.png" /> </span> LinkedIn
+                    <span> <img src = {linkedinLogo} alt = "Linkedin Logo" /> </span> LinkedIn
                 </button>
 
             </div>
